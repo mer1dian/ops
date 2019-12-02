@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Freight Trust Operations
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -90,7 +90,7 @@ defaultContentLanguage: en
 # localhost should automatically work.
 #
 # Example: https://status.example.com/
-baseURL: https://cstate.mnts.lt
+baseURL: https://freight-sec.com
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -106,10 +106,13 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-    - name: API
-      description: The guts of the application.
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      description: Ingress/Egress Portal (rpc, ws, jwt, etc)
+    - name: Network Layer
+      description: Subnetwork Mesh
+    - name: Network Core
+      description: Freight Blockchain
+    - name: Network Platform
+      description: Freight Trust Platform
 
   # What date format to use?
   #
@@ -150,8 +153,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-
+  description: We continuously monitor the status of the network & services. Check our @FreightTrustNet twitter & this page for up-to-date information.
   # Tabs on homepage
   # Uncomment to enable.
   #

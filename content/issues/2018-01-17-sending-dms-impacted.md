@@ -1,15 +1,15 @@
 ---
 title: Issues Sending DMs
-date: 2018-01-17 16:24:00
+date: 2019-12-01 16:24:00
 resolved: true
-resolvedWhen: 2018-01-17 16:58:00
+resolvedWhen: 2019-12-01 16:58:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected:
-  - API
+  - Gateway
 section: issue
 ---
 
-*Update* - This incident has been resolved.
+_Update_ - This incident has been resolved.
 
-*Investigating* - We're aware of an issue affecting sending DMs and viewing online friends. We're online and working on a resolution.
+_Investigating_ - We're aware of an issue connecting to the testing network. We're online and working on a resolution.
